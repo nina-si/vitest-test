@@ -1,0 +1,105 @@
+{
+  "numTotalTestSuites": 4,
+  "numPassedTestSuites": 4,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 6,
+  "numPassedTests": 5,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1661782058111,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "#sum"
+          ],
+          "fullName": " #sum returns 0 with no numbers",
+          "status": "passed",
+          "title": "returns 0 with no numbers",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "#sum"
+          ],
+          "fullName": " #sum returns 1 with 1",
+          "status": "passed",
+          "title": "returns 1 with 1",
+          "duration": 0,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "#sum"
+          ],
+          "fullName": " #sum returns 5 with 3 arguments",
+          "status": "passed",
+          "title": "returns 5 with 3 arguments",
+          "duration": 0,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1661782058966,
+      "endTime": 1661782058969,
+      "status": "passed",
+      "message": "",
+      "name": "C:/projects/vitest-test/src/sum.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "#multiply"
+          ],
+          "fullName": " #multiply returns 0 with no numbers",
+          "status": "passed",
+          "title": "returns 0 with no numbers",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "#multiply"
+          ],
+          "fullName": " #multiply returns 1 with 1",
+          "status": "passed",
+          "title": "returns 1 with 1",
+          "duration": 0,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "#multiply"
+          ],
+          "fullName": " #multiply returns 5 with 3 arguments",
+          "status": "failed",
+          "title": "returns 5 with 3 arguments",
+          "duration": 3,
+          "failureMessages": [
+            "expected 4 to be 5 // Object.is equality"
+          ],
+          "location": {
+            "line": 13,
+            "column": 75
+          }
+        }
+      ],
+      "startTime": 1661782058966,
+      "endTime": 1661782058972,
+      "status": "failed",
+      "message": "",
+      "name": "C:/projects/vitest-test/src/multiply.test.ts"
+    }
+  ]
+}
